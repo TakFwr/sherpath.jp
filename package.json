@@ -1,0 +1,13 @@
+{
+  "name": "sherpath.jp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "TKO Fwar",
+  "license": "MIT",
+  "scripts": {
+    "watch": "sass --watch sherpath-theme/assets/scss:sherpath-theme/assets/css"
+  },
+  "dependencies": {
+    "sass": "^1.79.3"
+  }
+}
