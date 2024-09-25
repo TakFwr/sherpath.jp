@@ -6,18 +6,18 @@ on:
       - master
 
 jobs:
-  ftp-deploy:
+  web-deploy:
     name: 🎉 Deploy website on push to master
     runs-on: ubuntu-latest
     steps:
       - name: 🚚Get latest code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: 📁Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./sherpath-theme/
-          remote-dir: /sherpath.jp/wp-content/themes/sherpath-theme/
+          server-dir: /sherpath.jp/wp-content/themes/sherpath-theme/
