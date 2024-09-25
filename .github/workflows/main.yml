@@ -7,7 +7,7 @@ on:
 
 jobs:
   ftp-deploy:
-    name: ?? Deploy website on push to master
+    name: 🎉 Deploy website on push to master
     runs-on: ubuntu-latest
     steps:
       - name: 🚚Get latest code
