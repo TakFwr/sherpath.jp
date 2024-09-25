@@ -2,6 +2,9 @@
 - URL: https://sherpath.jp/
 - WPの管理画面: https://sherpath.jp/wp-admin/
 
+## 本番環境へのデプロイ
+mainブランチへマージすると、github actionsを利用して本番環境へデプロイ
+サーバー内の.ftp-deploy-sync-state.jsonは削除しないように注意
 
 # ローカル開発環境構築
 

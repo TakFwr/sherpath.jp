@@ -1,0 +1,43 @@
+{
+    "description": "DO NOT DELETE THIS FILE. This file is used to keep track of which files have been synced in the most recent deployment. If you delete this file a resync will need to be done (which can take a while) - read more: https://github.com/SamKirkland/FTP-Deploy-Action",
+    "version": "1.0.0",
+    "generatedTime": 1727255086903,
+    "data": [
+        {
+            "type": "folder",
+            "name": "assets"
+        },
+        {
+            "type": "folder",
+            "name": "assets/css"
+        },
+        {
+            "type": "folder",
+            "name": "assets/scss"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/style.css",
+            "size": 40,
+            "hash": "43cac95975aac14ec1c064ae87dd908eb2725bb7261ed9b460cb43069acc1035"
+        },
+        {
+            "type": "file",
+            "name": "assets/css/style.css.map",
+            "size": 86,
+            "hash": "eb1561fd826472f79230c5006252c9fcd20f061f4134b3f1622e99569b5114dd"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/_reset.scss",
+            "size": 0,
+            "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "type": "file",
+            "name": "assets/scss/style.scss",
+            "size": 16,
+            "hash": "f673a2886e159feb43f367d9284791ae10f7bf74a75a2e8a18e64c6941f01ca3"
+        }
+    ]
+}
