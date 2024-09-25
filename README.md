@@ -1,6 +1,6 @@
 # 本番環境
-URL: https://sherpath.jp/
-WPの管理画面: https://sherpath.jp/wp-admin/
+- URL: https://sherpath.jp/
+- WPの管理画面: https://sherpath.jp/wp-admin/
 
 
 # ローカル開発環境構築
