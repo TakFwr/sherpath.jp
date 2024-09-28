@@ -1,5 +1,5 @@
 <footer>
-	<p>© 2018 Sherpath. All Rights Reserved.</p>
+	<p>Copyright 2024 SHERPATH.Inc</p>
 </footer>
 <script>
 	const $PATH = "<?php echo get_template_directory_uri(); ?>";

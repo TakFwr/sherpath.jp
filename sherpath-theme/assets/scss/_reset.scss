@@ -1,0 +1,34 @@
+/* Reset some default browser styles */
+html, body, div, h1, h2, h3, p, ul, ol, li, dl, dt, dd, form, input, button, nav, section, article, main, header, footer, img, iframe {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove list styles on ul, ol elements */
+ul, ol {
+  list-style: none;
+}
+
+/* Create a block-level element for a and button */
+a, button {
+  display: inline-block;
+}
+
+/* Reset underline from all a elements */
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: filter ease 0.2s;
+  &:visited {
+    // color: inherit;
+  }
+  &:hover {
+    filter: brightness(1.2);
+  }
+}
+
+/* Make images and embedded iframes responsive */
+img, iframe {
+  max-width: 100%;
+}

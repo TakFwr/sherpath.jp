@@ -1,0 +1,44 @@
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  background: #fff;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80px;
+  .header__logo {
+    a {
+      display: block;
+      img {
+        max-width: 100%;
+        height: auto;
+        transition: opacity;
+      }
+      &:hover {
+        img {
+          opacity: 0.70;
+        }
+      }
+    }
+  }
+  .header__nav {
+    width: 50%;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        a {
+          color: #53513F;
+          transition: opacity;
+          &:hover {
+            opacity: 0.80;
+          }
+        }
+      }
+    }
+  }
+}
