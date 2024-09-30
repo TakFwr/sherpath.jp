@@ -803,7 +803,7 @@ footer {
   width: calc(100% - 240px);
   padding: 120pt 40pt;
   text-align: center;
-  margin: -200pt 120pt 0;
+  margin: -30vh 120pt 0;
   position: relative;
 }
 @media (max-width: 750px) {
