@@ -1,2 +1,15 @@
 $image-path: "../img/";
 $font-path: "../fonts/";
+
+// media query mixin
+@mixin media-query($breakpoint) {
+  @if $breakpoint == "sp" {
+    @media (max-width: 750px) {
+      @content;
+    }
+  } @else if $breakpoint == "pc" {
+    @media (min-width: 751px) {
+      @content;
+    }
+  }
+}

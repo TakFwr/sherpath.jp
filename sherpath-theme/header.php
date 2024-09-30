@@ -16,6 +16,15 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/img/sherpath_logo.svg" alt="Sherpath">
         </a>
       </h1>
+
+      <input type="checkbox" id="menu-toggle" class="menu__toggle">
+      <label for="menu-toggle" class="menu__btn">
+        <div class="menu-icon">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/menu-hamburger.svg" alt="" class="menu-hamburger">
+          <img src="<?php echo get_template_directory_uri(); ?>/assets/img/menu-cancel.svg" alt="" class="menu-cancel">
+        </div>
+      </label>
+
       <div class="header__nav">
         <nav>
           <ul>
