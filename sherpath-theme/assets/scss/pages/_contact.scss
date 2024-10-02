@@ -1,0 +1,128 @@
+.contact {
+  .contact__visual {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 115pt;
+    @include media-query("sp") {
+      flex-direction: column-reverse;
+      margin-top: 40pt;
+    }
+    h1 {
+      font-size: 3.6rem;
+      padding: 60pt;
+      background-color: rgba(255, 255, 255, 0.8);
+      @include media-query("sp") {
+        font-size: 2.4rem;
+        margin: -40px 10px 0;
+        padding: 30pt;
+        width: 70%;
+      }
+      span {
+        display: block;
+        font-size: 2.0rem;
+        @include media-query("sp") {
+          font-size: 1.4rem;
+          margin-top: 20px;
+        }
+      }
+    }
+    div {
+      font-family: "Jost" , sans-serif;
+      color: #E6E6E6;
+      font-size: 18.0rem;
+      margin-top: 75pt;
+      @include media-query("sp") {
+        font-size: 6.4rem;
+        margin-top: 0;
+        text-align: right;
+      }
+    }
+  }
+  .contact__text {
+    margin: 80pt 120pt 40pt;
+    @include media-query("sp") {
+      margin: 40px 30px 20px;
+    }
+  }
+
+
+  .contact__form {
+    margin-top: 40pt;
+    .form__item {
+      width: 60%;
+      margin: 60pt auto 120pt;
+      @include media-query("sp") {
+        width: 100%;
+        margin: 40px 0 80px;
+        padding: 0 30px;
+      }
+    }
+    .form__lists {
+      display: flex;
+      flex-direction: column;
+      gap: 40pt;
+      li {
+        display: flex;
+        @include media-query("sp") {
+          flex-direction: column;
+          gap: 20px;
+        }
+        > p {
+          width: 30%;
+          font-size: 1.6rem;
+          margin: 0;
+          @include media-query("sp") {
+            width: 100%;
+          }
+        }
+        .form__input {
+          width: 70%;
+          @include media-query("sp") {
+            width: 100%;
+          }
+          p {
+            width: 100%;
+          }
+          input, textarea, select {
+            width: 100%;
+            padding: 9px;
+            font-size: 1.4rem;
+            border: 1px solid #E2E8F0;
+            border-radius: 5px;
+            &::placeholder {
+              color: #A0AEC0;
+            }
+          }
+        }
+        .required {
+          color: #C55555;
+          font-size: 1.2rem;
+          margin-left: 8px;
+        }
+      }
+    }
+    .form__submit {
+      display: flex;
+      justify-content: center;
+      gap: 40pt;
+      margin-top: 40pt;
+      button {
+        padding: 20px 40px;
+        text-align: center;
+        background-color: #30373C;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease, opacity 0.3s ease;
+        &:hover {
+          background-color: rgba(48, 55, 60, 0.4);
+        }
+      }
+    }
+
+
+    .wpcf7-not-valid-tip {
+      font-size: 0.96rem;
+    }
+  }
+}

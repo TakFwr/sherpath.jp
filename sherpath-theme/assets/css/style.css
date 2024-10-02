@@ -42,6 +42,10 @@ img, iframe {
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "Jost";
+  src: url(../fonts/jost/Jost-SemiBold.ttf) format("truetype");
+}
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
@@ -115,9 +119,11 @@ a.arrow__link:hover {
 
 header {
   position: fixed;
+  top: 0;
   z-index: 100;
   width: 100%;
   background: #fff;
+  height: 80px;
 }
 
 .header {
@@ -125,7 +131,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  height: 80px;
+  height: 100%;
 }
 @media (max-width: 750px) {
   .header {
@@ -249,18 +255,20 @@ footer {
 
 .mv {
   width: 100%;
-  height: 1000px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 56.33%;
+  margin-top: 80px;
 }
 @media (max-width: 750px) {
   .mv {
-    height: 80vh;
+    padding-bottom: 159.38%;
   }
 }
 .mv .mv_inner {
-  padding-top: 80px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -851,6 +859,147 @@ footer {
     position: relative;
     z-index: 1;
   }
+}
+
+.contact .contact__visual {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 115pt;
+}
+@media (max-width: 750px) {
+  .contact .contact__visual {
+    flex-direction: column-reverse;
+    margin-top: 40pt;
+  }
+}
+.contact .contact__visual h1 {
+  font-size: 3.6rem;
+  padding: 60pt;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+@media (max-width: 750px) {
+  .contact .contact__visual h1 {
+    font-size: 2.4rem;
+    margin: -40px 10px 0;
+    padding: 30pt;
+    width: 70%;
+  }
+}
+.contact .contact__visual h1 span {
+  display: block;
+  font-size: 2rem;
+}
+@media (max-width: 750px) {
+  .contact .contact__visual h1 span {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+}
+.contact .contact__visual div {
+  font-family: "Jost", sans-serif;
+  color: #E6E6E6;
+  font-size: 18rem;
+  margin-top: 75pt;
+}
+@media (max-width: 750px) {
+  .contact .contact__visual div {
+    font-size: 6.4rem;
+    margin-top: 0;
+    text-align: right;
+  }
+}
+.contact .contact__text {
+  margin: 80pt 120pt 40pt;
+}
+@media (max-width: 750px) {
+  .contact .contact__text {
+    margin: 40px 30px 20px;
+  }
+}
+.contact .contact__form {
+  margin-top: 40pt;
+}
+.contact .contact__form .form__item {
+  width: 60%;
+  margin: 60pt auto 120pt;
+}
+@media (max-width: 750px) {
+  .contact .contact__form .form__item {
+    width: 100%;
+    margin: 40px 0 80px;
+    padding: 0 30px;
+  }
+}
+.contact .contact__form .form__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 40pt;
+}
+.contact .contact__form .form__lists li {
+  display: flex;
+}
+@media (max-width: 750px) {
+  .contact .contact__form .form__lists li {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+.contact .contact__form .form__lists li > p {
+  width: 30%;
+  font-size: 1.6rem;
+  margin: 0;
+}
+@media (max-width: 750px) {
+  .contact .contact__form .form__lists li > p {
+    width: 100%;
+  }
+}
+.contact .contact__form .form__lists li .form__input {
+  width: 70%;
+}
+@media (max-width: 750px) {
+  .contact .contact__form .form__lists li .form__input {
+    width: 100%;
+  }
+}
+.contact .contact__form .form__lists li .form__input p {
+  width: 100%;
+}
+.contact .contact__form .form__lists li .form__input input, .contact .contact__form .form__lists li .form__input textarea, .contact .contact__form .form__lists li .form__input select {
+  width: 100%;
+  padding: 9px;
+  font-size: 1.4rem;
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+}
+.contact .contact__form .form__lists li .form__input input::placeholder, .contact .contact__form .form__lists li .form__input textarea::placeholder, .contact .contact__form .form__lists li .form__input select::placeholder {
+  color: #A0AEC0;
+}
+.contact .contact__form .form__lists li .required {
+  color: #C55555;
+  font-size: 1.2rem;
+  margin-left: 8px;
+}
+.contact .contact__form .form__submit {
+  display: flex;
+  justify-content: center;
+  gap: 40pt;
+  margin-top: 40pt;
+}
+.contact .contact__form .form__submit button {
+  padding: 20px 40px;
+  text-align: center;
+  background-color: #30373C;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+.contact .contact__form .form__submit button:hover {
+  background-color: rgba(48, 55, 60, 0.4);
+}
+.contact .contact__form .wpcf7-not-valid-tip {
+  font-size: 0.96rem;
 }
 
 /*# sourceMappingURL=style.css.map */
