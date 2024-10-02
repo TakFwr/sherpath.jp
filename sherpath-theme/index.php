@@ -166,7 +166,7 @@
     <div class="contact__contents">
       <div class="contact__title"><span>CONTACT</span>シェルパスへのお問い合わせ</div>
       <p>各種お問合せ（取材・提携・採用・その他）はこちらからお願いします。</p>
-      <a class="arrow__link" href="<?php echo esc_url(home_url('/')); ?>">Contact</a>
+      <a class="arrow__link" href="<?php echo esc_url(home_url('/contact')); ?>">Contact</a>
     </div>
   </section>
 
