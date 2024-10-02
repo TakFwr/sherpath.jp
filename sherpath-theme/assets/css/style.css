@@ -53,6 +53,7 @@ body {
   color: #30373C;
   font-size: 1.6rem;
   position: relative;
+  padding-top: 80px;
 }
 
 h2 {
@@ -118,6 +119,7 @@ header {
   z-index: 100;
   width: 100%;
   background: #fff;
+  top: 0;
 }
 
 .header {
@@ -249,18 +251,19 @@ footer {
 
 .mv {
   width: 100%;
-  height: 1000px;
   position: relative;
   overflow: hidden;
+  padding-bottom: 56.33%;
 }
 @media (max-width: 750px) {
   .mv {
-    height: 80vh;
+    padding-bottom: 159.38%;
   }
 }
 .mv .mv_inner {
-  padding-top: 80px;
-  position: relative;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -271,7 +274,7 @@ footer {
   top: 0;
   left: 0;
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
   z-index: 1;
   opacity: 0;
   animation: backgroundFade 18s infinite;

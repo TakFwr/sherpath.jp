@@ -3,6 +3,7 @@ header {
   z-index: 100;
   width: 100%;
   background: #fff;
+  top: 0;
 }
 .header {
   display: flex;
@@ -39,6 +40,7 @@ header {
     }
   }
   .header__nav {
+    width: 50%;
     @include media-query("sp") {
       position: absolute;
       top: 80px;
@@ -54,7 +56,6 @@ header {
       pointer-events: none;
       padding: 0;
     }
-    width: 50%;
     ul {
       display: flex;
       justify-content: space-between;
