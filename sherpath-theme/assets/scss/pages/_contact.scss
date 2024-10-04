@@ -1,56 +1,9 @@
 .contact {
-  .contact__visual {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 115pt;
-    @include media-query("sp") {
-      flex-direction: column-reverse;
-      margin-top: 40pt;
-    }
-    h1 {
-      font-size: 3.6rem;
-      padding: 60pt;
-      background-color: rgba(255, 255, 255, 0.8);
-      @include media-query("sp") {
-        font-size: 2.4rem;
-        margin: -40px 10px 0;
-        padding: 30pt;
-        width: 70%;
-      }
-      span {
-        display: block;
-        font-size: 2.0rem;
-        @include media-query("sp") {
-          font-size: 1.4rem;
-          margin-top: 20px;
-        }
-      }
-    }
-    div {
-      font-family: "Jost" , sans-serif;
-      color: #E6E6E6;
-      font-size: 18.0rem;
-      margin-top: 75pt;
-      @include media-query("sp") {
-        font-size: 6.4rem;
-        margin-top: 0;
-        text-align: right;
-      }
-    }
-  }
-  .contact__text {
-    margin: 80pt 120pt 40pt;
-    @include media-query("sp") {
-      margin: 40px 30px 20px;
-    }
-  }
-
-
   .contact__form {
-    margin-top: 40pt;
+    margin-top: 40px;
     .form__item {
       width: 60%;
-      margin: 60pt auto 120pt;
+      margin: 60px auto 120px;
       @include media-query("sp") {
         width: 100%;
         margin: 40px 0 80px;
@@ -60,7 +13,7 @@
     .form__lists {
       display: flex;
       flex-direction: column;
-      gap: 40pt;
+      gap: 40px;
       li {
         display: flex;
         @include media-query("sp") {
@@ -104,8 +57,8 @@
     .form__submit {
       display: flex;
       justify-content: center;
-      gap: 40pt;
-      margin-top: 40pt;
+      gap: 40px;
+      margin-top: 40px;
       button {
         padding: 20px 40px;
         text-align: center;

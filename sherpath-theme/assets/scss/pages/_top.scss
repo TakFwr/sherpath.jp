@@ -64,7 +64,7 @@
 }
 
 .top__section {
-  padding: 120pt 0;
+  padding: 120px 0;
   overflow: hidden;
   @include media-query("sp") {
     padding: 60pt 0;
@@ -81,7 +81,7 @@
   }
   &#about .section__visual {
     align-self: center;
-    margin-bottom: 40pt;
+    margin-bottom: 40px;
     text-align: center;
   }
   &#news .section__visual {
@@ -131,7 +131,7 @@
     flex-direction: row-reverse;
     gap: 40px;
     width: calc(100% - 240pt);
-    margin: 20pt auto 0;
+    margin: 20px auto 0;
     @include media-query("sp") {
       flex-direction: column;
       width: 100%;
@@ -140,7 +140,7 @@
       width: calc(100% - 640px - 40px);
       @include media-query("sp") {
         width: 100%;
-        padding: 20pt;
+        padding: 20px;
       }
     }
     .mission__image {
@@ -166,7 +166,7 @@
   padding-top: 320pt;
   @include media-query("sp") {
     background-size: 80% auto;
-    padding-top: 40pt;
+    padding-top: 40px;
   }
   .about__wrap {
     display: flex;
@@ -179,11 +179,11 @@
     flex-direction: column;
     text-align: center;
     margin-left: 5%;
-    padding: 60pt;
+    padding: 60px;
     @include media-query("sp") {
       width: 80%;
       margin-left: 0;
-      padding: 60pt 40pt;
+      padding: 60px 40px;
       h2 {
         font-size: 3.6rem;
         text-align: left;
@@ -197,8 +197,8 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
-    width: calc(100% - 240pt);
-    margin: 20pt auto 0;
+    width: calc(100% - 240px);
+    margin: 20px auto 0;
     @include media-query("sp") {
       flex-direction: column;
       width: 100%;
@@ -208,7 +208,7 @@
       width: calc(100% - 640px - 40px);
       @include media-query("sp") {
         width: 100%;
-        padding: 20pt;
+        padding: 20px;
       }
     }
     .what__image {
@@ -230,18 +230,18 @@
   overflow: hidden;
   .service01 {}
   .service02 {
-    margin-top: 120pt;
+    margin-top: 120px;
     @include media-query("sp") {
-      margin-top: 60pt;
-      padding-bottom: 60pt;
+      margin-top: 60px;
+      padding-bottom: 60px;
     }
   }
   .service__contents {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    width: calc(100% - 120pt);
-    margin: 20pt 0 20pt 120pt;
+    width: calc(100% - 120px);
+    margin: 20px 0 20pt 120px;
     @include media-query("sp") {
       flex-direction: column;
       width: 100%;
@@ -260,7 +260,7 @@
       }
     }
     .service__item {
-      width: calc(100% - 640pt - 40px);
+      width: calc(100% - 640px - 40px);
       @include media-query("sp") {
         width: 100%;
         padding: 40px 0 0 40px;
@@ -268,10 +268,10 @@
       .service__title {
         font-size: 2.0rem;
         border-bottom: 1px solid #000;
-        padding: 12pt;
+        padding: 12px;
       }
       .service__text {
-        margin-top: 40pt;
+        margin-top: 40px;
         width: calc(100% - 120px);
         @include media-query("sp") {
           width: 100%;
@@ -282,7 +282,7 @@
           font-size: 3.6rem;
           font-weight: normal;
           letter-spacing: 0.4rem;
-          margin-bottom: 40pt;
+          margin-bottom: 40px;
         }
       }
     }
@@ -290,7 +290,7 @@
   .service__links {
     display: flex;
     width: calc(100% - 320px);
-    margin: 40pt auto 0;
+    margin: 40px auto 0;
     gap: 40px;
     justify-content: center;
     @include media-query("sp") {
@@ -302,7 +302,7 @@
     .bracket__box {
       position: relative;
       background-color: #fff;
-      padding: 40pt;
+      padding: 40px;
       width: calc(50% - 20px);
       @include media-query("sp") {
         width: 100%;
@@ -374,20 +374,20 @@
 }
 
 #note {
-  margin-top: 120pt;
-  padding: 120pt 120pt 120pt 0;
+  margin-top: 120px;
+  padding: 120px 120px 120px 0;
   background-color: rgba(0, 0, 0, 0.02);
   @include media-query("sp") {
-    margin-top: 60pt;
-    padding: 60pt 0;
+    margin-top: 60px;
+    padding: 60px 0;
   }
   .note__title {
     font-family: "Roboto", sans-serif;
     font-size: 8.4rem;
-    margin-left: 120pt;
+    margin-left: 120px;
     @include media-query("sp") {
       font-size: 6.4rem;
-      margin-left: 20pt;
+      margin-left: 20px;
     }
   }
   .note__contents {
@@ -404,21 +404,21 @@
       padding: 40px 0;
     }
     .note__item__title {
-      margin-left: 120pt;
+      margin-left: 120px;
       font-size: 2.4rem;
       @include media-query("sp") {
-        margin-left: 20pt;
+        margin-left: 20px;
         font-size: 2.0rem;
       }
     }
     .note__item__text {
-      margin-left: 220pt;
+      margin-left: 220px;
       margin-top: 40pt;
       display: flex;
       justify-content: space-between;
       align-items: center;
       @include media-query("sp") {
-        margin-left: 20pt;
+        margin-left: 20px;
         flex-direction: column;
         gap: 20px;
       }
@@ -433,17 +433,17 @@
 #news {
   padding-top: 0;
   @include media-query("sp") {
-    padding-top: 60pt;
+    padding-top: 60px;
   }
   .news__contents {
-    padding: 40pt;
+    padding: 40px;
     background-color: rgba(0, 0, 0, 0.02);
     display: flex;
     gap: 40px;
-    margin: 0 120pt 0 180pt;
+    margin: 0 120pt 0 180px;
     @include media-query("sp") {
       flex-direction: column;
-      margin: 0 20pt;
+      margin: 0 20px;
     }
   }
   .news__item {
@@ -453,7 +453,7 @@
     }
     .news__title {
       font-size: 2.4rem;
-      margin-bottom: 40pt;
+      margin-bottom: 40px;
     }
     .news__list {
       display: flex;
@@ -470,68 +470,6 @@
         &:hover {
           opacity: 0.7;
         }
-      }
-    }
-  }
-}
-
-#contact {
-  margin-top: 90pt;
-  background-color: rgba(0, 0, 0, 0.02);
-  background-image: url(#{$image-path} + "contact_bg_pc.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 1728px 476px;
-  padding-top: 600pt;
-  @include media-query("sp") {
-    margin: 40pt 0;
-    padding: 80pt 40px;
-  }
-  .contact__contents {
-    background-color: rgba(255, 255, 255, 0.8);
-    width: calc(100% - 240px);
-    padding: 120pt 40pt;
-    text-align: center;
-    margin: -30vh 120pt 0;
-    position: relative;
-    @include media-query("sp") {
-      background: none;
-      width: 100%;
-      margin: 0;
-      padding: 40px 0;
-      &:after {
-        content: "";
-        background-color: rgba(255, 255, 255, 0.8);
-        width: 90%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-      }
-    }
-    .contact__title {
-      font-size: 2.4rem;
-      margin-bottom: 40pt;
-      @include media-query("sp") {
-        font-size: 2.0rem;
-        position: relative;
-        z-index: 1;
-      }
-      span {
-        font-size: 8.4rem;
-        font-family: "Roboto", sans-serif;
-        display: block;
-        @include media-query("sp") {
-          font-size: 6.4rem;
-        }
-      }
-    }
-    p,a {
-      @include media-query("sp") {
-        position: relative;
-        z-index: 1;
       }
     }
   }
