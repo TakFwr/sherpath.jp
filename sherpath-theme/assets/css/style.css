@@ -353,7 +353,8 @@ header {
 }
 .header .header__nav ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  gap: 40px;
 }
 @media (max-width: 750px) {
   .header .header__nav ul {

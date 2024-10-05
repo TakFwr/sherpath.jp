@@ -59,7 +59,9 @@ header {
     }
     ul {
       display: flex;
-      justify-content: space-between;
+      // justify-content: space-between;
+      justify-content: flex-end;
+      gap: 40px;
       @include media-query("sp") {
         flex-direction: column;
         gap: 40px;
