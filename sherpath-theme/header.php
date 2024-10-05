@@ -29,9 +29,13 @@
         <nav>
           <ul>
             <li><a href="<?php echo esc_url(home_url('/about')); ?>">シェルパスについて</a></li>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>">事業内容</a></li>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>">note</a></li>
-            <li><a href="<?php echo esc_url(home_url('/')); ?>">お知らせ</a></li>
+            <!--
+            <li><a href="<?php // echo esc_url(home_url('/')); ?>">事業内容</a></li>
+            -->
+            <li><a href="https://note.com/_sherpath/" target="_blank">note</a></li>
+            <!--
+            <li><a href="<?php // echo esc_url(home_url('/#news')); ?>">お知らせ</a></li>
+            -->
             <li><a href="<?php echo esc_url(home_url('/contact')); ?>">お問い合わせ</a></li>
           </ul>
         </nav>

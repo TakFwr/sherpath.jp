@@ -34,7 +34,7 @@
             <div class="service__title">MISSION</div>
             <div class="service__text">
               <h3>もっと自由に、<br class="pc-none">自分のストーリーを</h3>
-              <p>「世間には「根拠のない謎のルール」があります。
+              <p>「世間には「根拠のない謎のルール」があります。<br>
                 性別役割分担の偏り、ジェンダーバイアスと表現されることもあり、人生に制約をもたらしています。</p>
               <p>誰もが謎のルールに縛られることなく、もっと自由に、自分のストーリーを描く社会に。</p>
             </div>
@@ -53,8 +53,7 @@
       <div class="about__logo__inner">
         <div class="about__logo__title"><span>SHERPATH</span>会社名シェルパスの由来</div>
         <div class="about__logo__text"><p>
-            私たちは、一人ひとりが自分らしく生きることを応援するためそれぞれの人生（HER
-            PATH）に伴走するシェルパ（SHERPA）として社名を「SHERPATH」と名付けました。
+            私たちは、一人ひとりが自分らしく生きることを応援するため<br>それぞれの人生（HER PATH）に伴走するシェルパ（SHERPA）として<br>社名を「SHERPATH」と名付けました。
           </p></div>
       </div>
     </div>
@@ -82,13 +81,15 @@
                   2003年慶應義塾大学大学院　経営管理研究課修了<br>
                   情報経営イノベーション専門職大学　客員教授</p>
               </div>
-<!-- リリース後に追加
+<!-- TODO: リース初期はコメントアウトで非表示 -->
+<!--
               <div class="member__link">
                 <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
 -->
             </li>
-<!-- リリース後に追加
+<!-- TODO: リース初期はコメントアウトで非表示 -->
+<!-- 福永さんブロック開始
             <li>
               <div class="member__list__img"><img
                   src="<?php // echo get_template_directory_uri(); ?>/assets/img/member2.png" width="180" height="180"
@@ -108,12 +109,14 @@
                 <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
             </li>
--->
+福永さんブロック コメントアウトここまで -->
           </ul>
         </div>
       </div>
     </div>
 
+<!-- TODO: リース初期はコメントアウトで非表示 -->
+<!-- ADVISORS コメントアウト開始
     <div class="adviser">
       <div class="adviser__inner">
         <div class="about-page__title">
@@ -123,7 +126,7 @@
           <ul class="member__list">
             <li>
               <div class="member__list__img"><img
-                  src="<?php echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
+                  src="<?php // echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
                   alt="新井 豪一郎"></div>
               <div class="member__list__name"><span>代表取締役</span>新井 豪一郎</div>
               <div class="member__list__text">
@@ -131,13 +134,13 @@
                   １００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字</p>
               </div>
               <div class="member__link">
-                <a class="arrow__link" href="<?php echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
+                <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
             </li>
 
             <li>
               <div class="member__list__img"><img
-                  src="<?php echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
+                  src="<?php // echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
                   alt="新井 豪一郎"></div>
               <div class="member__list__name"><span>代表取締役</span>新井 豪一郎</div>
               <div class="member__list__text">
@@ -145,13 +148,13 @@
                   １００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字</p>
               </div>
               <div class="member__link">
-                <a class="arrow__link" href="<?php echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
+                <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
             </li>
 
             <li>
               <div class="member__list__img"><img
-                  src="<?php echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
+                  src="<?php // echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
                   alt="新井 豪一郎"></div>
               <div class="member__list__name"><span>代表取締役</span>新井 豪一郎</div>
               <div class="member__list__text">
@@ -159,13 +162,13 @@
                   １００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字</p>
               </div>
               <div class="member__link">
-                <a class="arrow__link" href="<?php echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
+                <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
             </li>
 
             <li>
               <div class="member__list__img"><img
-                  src="<?php echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
+                  src="<?php // echo get_template_directory_uri(); ?>/assets/img/member1.png" width="180" height="180"
                   alt="新井 豪一郎"></div>
               <div class="member__list__name"><span>代表取締役</span>新井 豪一郎</div>
               <div class="member__list__text">
@@ -173,13 +176,14 @@
                   １００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字１００文字</p>
               </div>
               <div class="member__link">
-                <a class="arrow__link" href="<?php echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
+                <a class="arrow__link" href="<?php // echo esc_url(home_url('/about')); ?>">VIEW MORE</a>
               </div>
             </li>
           </ul>
         </div>
       </div>
     </div>
+ADVISORS コメントアウトここまで -->
 
     <section class="bottom">
       <div class="bottom__contents">
@@ -198,14 +202,15 @@
                 <dd>新井 豪一郎</dd>
               </dl>
             </li>
-            <!-- 後日公開
+<!-- TODO: リース初期はコメントアウトで非表示 -->
+<!--
             <li>
               <dl>
                 <dt>取締役</dt>
                 <dd>福永 夕太</dd>
               </dl>
             </li>
-            -->
+-->
             <li>
               <dl>
                 <dt>事業所</dt>
