@@ -48,7 +48,7 @@
 </section>
 
 <section id="what" class="top__section">
-  <div class="section__visual">WHAT WE DO</div>
+  <div class="section__visual">BUSINESSES</div>
   <div class="what__contents">
     <div class="what__text">
       <h2>事業内容</h2>
@@ -87,18 +87,18 @@
       </div>
     </div>
     <div class="service__links">
-      <!-- TODO:リリース初期はコメントアウトで非表示 -->
-      <!--
+<!-- TODO:リリース初期はコメントアウトで非表示 -->
+<!--
         <div class="bracket__box">
           <div class="bracket__box__title">不動産サービス</div>
           <p>女性に特化した不動産仲介サービスを提供しています。 短期的な利益追求ではなく、お客様の納得できる最適な選択に寄り添い、中立的な提案を行います。</p>
           <a class="arrow__link" target="_blank" href="<?php //echo esc_url(home_url('/')); ?>">SERVICE SITE</a>
         </div>
-        -->
+-->
       <div class="bracket__box">
         <div class="bracket__box__title">不動産相談サービス</div>
         <p>不動産購入に関する女性特有の疑問や悩みについて、匿名で相談できるオンラインサービスを提供しています。</p>
-        <a class="arrow__link" target="_blank" href="<?php echo esc_url(home_url('/')); ?>">SERVICE SITE</a>
+        <a class="arrow__link" target="_blank" href="https://line.me/ti/g2/mQtPva0sNmYaKTgVJj3tJ8P4-mSVhvW1KRCTFw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">SERVICE SITE</a>
       </div>
     </div>
 
@@ -143,7 +143,7 @@
       <div class="note__item__text">
         <p>
           会社の創業ストーリーや私たちの想い、役立つコンテンツを発信しています。私たちシェルパスについて知っていただければ幸いです。</p>
-        <a class="arrow__link" href="<?php echo esc_url(home_url('/')); ?>">note</a>
+        <a class="arrow__link" href="https://note.com/_sherpath/" target="_blank">note</a>
       </div>
     </div>
 </section>
@@ -176,7 +176,12 @@
         </li>
       </ul>
     </div>
-    <div><a class="arrow__link" href="<?php echo esc_url(home_url('/')); ?>">VIEW MORE</a></div>
+    <div>
+<!-- TODO:リリース初期はコメントアウトで非表示 -->
+<!--
+      <a class="arrow__link" href="<?php // echo esc_url(home_url('/')); ?>">VIEW MORE</a>
+-->
+    </div>
 </section>
 
 <section id="contact" class="bottom">

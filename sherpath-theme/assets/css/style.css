@@ -1014,6 +1014,7 @@ footer {
   font-size: 1.4rem;
   border: 1px solid #E2E8F0;
   border-radius: 5px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .contact .contact__form .form__lists li .form__input input::placeholder, .contact .contact__form .form__lists li .form__input textarea::placeholder, .contact .contact__form .form__lists li .form__input select::placeholder {
   color: #A0AEC0;
