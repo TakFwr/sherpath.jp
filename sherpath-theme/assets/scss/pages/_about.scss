@@ -71,6 +71,7 @@
   .about__logo__text {
     width: 60%;
     margin: 0 auto;
+    text-align: center;
     @include media-query("sp") {
       width: 100%;
       padding: 160px 0 0;
