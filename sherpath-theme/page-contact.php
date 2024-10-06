@@ -21,7 +21,9 @@
 			<?php elseif (get_page_uri() === 'contact/confirm') : ?>
         <p>ご入力内容をご確認の上「SEND」ボタンをクリックしてください。</p>
 			<?php elseif (get_page_uri() === 'contact/thanks') : ?>
-        <p>お問い合わせありがとうございまました。</p>
+        <p>お問い合わせいただき誠にありがとうございます。<br>
+          ご連絡いただいた内容を確認後、担当者よりご連絡いたします。<br>
+          少しお待ちいただけますようお願い申し上げます。</p>
 			<?php endif; ?>
     </div>
 
