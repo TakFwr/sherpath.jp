@@ -155,23 +155,23 @@
       <div class="news__title">シェルパスに関するお知らせ</div>
       <ul class="news__list">
         <li>
-          <a href="<?php echo esc_url(home_url('/')); ?>">
-            <div class="news__date">2024.10.05</div>
+          <!--<a href="<?php // echo esc_url(home_url('/')); ?>"> -->
+            <div class="news__date">2024.10.00</div>
             <div class="news__text">
-              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              WEBサイトをオープンしました。
             </div>
-          </a>
+          <!--</a>-->
         </li>
         <li>
-          <a href="<?php echo esc_url(home_url('/')); ?>">
-            <div class="news__date">2024.10.05</div>
-            <div class="news__text">テキストテキストテキストテキストテキストテキスト</div>
-          </a>
+          <!--<a href="<?php // echo esc_url(home_url('/')); ?>">-->
+            <div class="news__date">2024.07.29</div>
+            <div class="news__text">シェルパス株式会社を創業しました。</div>
+          <!--</a>-->
         </li>
         <li>
-          <a href="<?php echo esc_url(home_url('/')); ?>">
-            <div class="news__date">2024.10.05</div>
-            <div class="news__text">テキストテキストテキストテキストテキストテキスト</div>
+          <!--<a href="<?php // echo esc_url(home_url('/')); ?>">-->
+            <div class="news__date">2024.07.29</div>
+            <div class="news__text">自由が丘に事務所を設立しました。</div>
           </a>
         </li>
       </ul>

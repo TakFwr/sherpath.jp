@@ -1131,6 +1131,7 @@ footer {
 .about__logo .about__logo__text {
   width: 60%;
   margin: 0 auto;
+  text-align: center;
 }
 @media (max-width: 750px) {
   .about__logo .about__logo__text {
